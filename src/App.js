@@ -1,10 +1,14 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <h1>My React Weather App</h1>
+      <button type="button" class="btn btn-primary">
+        Primary
+      </button>
       <footer>
         This app was coded by Jalayana Miller. It is open-sourced on{" "}
         <a
