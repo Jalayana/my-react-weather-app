@@ -6,7 +6,6 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <h1>My React Weather App</h1>
       <Weather />
       <footer>
         This app was coded by Jalayana Miller. It is open-sourced on{" "}
