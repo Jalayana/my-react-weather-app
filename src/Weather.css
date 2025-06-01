@@ -1,9 +1,10 @@
 .Weather {
-  border: 1px solid orangered;
+  border: 1px solid rgba(0, 149, 255, 0.776);
   color: #878787;
   padding: 16px;
   margin: 30px auto;
   max-width: 600px;
+  border-radius: 8px;
 }
 
 .Weather form {
@@ -29,15 +30,10 @@
   list-style: none;
 }
 
-.weather-temperature {
+.temperature-icon {
   display: flex;
-  gap: 8px;
-  font-weight: 400;
-}
-
-.weather-temperature img {
-  width: 64px;
-  height: 64px;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .temperature-celsius {
@@ -46,7 +42,9 @@
   line-height: 64px;
 }
 
-.unit-metric {
-  font-size: 20px;
+.unit {
+  font-size: 18px;
   color: #212121;
+
+  vertical-align: super;
 }
