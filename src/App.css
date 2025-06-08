@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(135, 135, 135, 0.1);
+}
+
 .App {
   max-width: 600px;
   margin: 30px auto;
@@ -5,10 +10,5 @@
 
 .App footer {
   font-size: 11px;
-  margin: 10p 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(135, 135, 135, 0.1);
+  margin: 10px 0;
 }
