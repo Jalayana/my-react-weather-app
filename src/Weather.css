@@ -42,8 +42,8 @@
   line-height: 64px;
 }
 
-.unit {
-  font-size: 18px;
+.temperature-unit {
+  font-size: 20px;
   color: #212121;
 
   vertical-align: super;
